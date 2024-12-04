@@ -49,6 +49,12 @@ nav{
     max-width: 1000px;
     border-radius: 4px;
     margin-left: 15px;
+    box-shadow: none;
+    transition: box-shadow 0.3 ease; /*smooth transition*/
+}
+
+.nav-search:focus-within{
+    box-shadow: 0 0 1px 3px rgba(255, 165, 0, 1); /*box-shadow: offset-x offset-y blur-radius spread-radius color */
 }
 
 .nav-search-category{
@@ -141,9 +147,6 @@ nav{
     border: 1.5px solid white
 }
 
-.nav-search:hover{
-    border:2px solid orange
-}
 
 
 /* hero section css */

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zennifer.com</title>
+
+    <link rel="stylesheet" href="style.css">
+
+        <!-- cdn for fontawesome social icons -->
+         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+
+        <img src="logo.png"  class="logo" alt="">
+
+        <ul id="menu-links">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Products</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="#"><li>About us</li></a>
+        </ul>
+
+        <button class="nav-btn">Sign Up <img src="arrow-white.png" alt=""></button>  
+
+        <img src="menu.png" alt="" class="menu-icon" onclick="toggleMenu()">
+
+    </nav>
+
+    <!-- hero section  -->
+
+    <div class="header">
+
+        <div class="header-content">
+
+            <h1><span>Shop</span><br><span>Now</span></h1>
+
+            <div class="btn-container">
+                <button class="btn-dark">Request call back <img src="phone.png" alt=""></button>
+    
+                <button class="btn-light">Our Blog <img src="arrow-black.png " alt=""></button>
+            </div>
+    
+            <p>Discover stylish, high-quality furniture that transforms your space into a home.</p>
+            
+        </div>
+
+        <img src="user.png" alt="" class="user-img">
+    </div>
+
+    <!-- content section  -->
+
+    <div class="content">
+        <div class="content-text1">
+            <h1>ELEGANT<br>COMFORT</h1>
+        </div>
+        
+        <img src="img1.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <div class="content-text2">
+            <h2>Modern Aesthetics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque</p>
+        </div>
+
+        <img src="img2.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <div class="content-text3">
+            <h2>Artful Furnishings</h2>
+            <button>View Product</button>
+        </div>
+
+        <img src="img3.jpg" alt="">
+    </div>
+
+    <!-- footer section  -->
+
+    <div class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-column">
+                <h3>Your Logo</h3>
+                <p>Your Tagline here</p>
+                <form action="" class="subscribe-form">
+                    <input type="email" placeholder="Enter your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-column">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">More Search</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Helpful Links</h3>
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href=""> Supports</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#">Brands list</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Return & Exchange</a></li>
+                    <li><a href="#">Fashion list</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-phone"></i> +91 9999 999 999</p>
+                <p><i class="fa-solid fa-envelope"></i> youremailid.com</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        
+        </div> <!--footer-content ends here-->
+
+        
+        <div class="footer-bottom">
+
+            <div class="footer-column">
+                <p>2018 © company.us | All Right reserved</p>
+                <a href="#">FAQ</a> | <a href="#">Privacy</a> | <a href="#">Terms & Condition</a>
+            </div>
+
+        </div>
+
+    </div> <!--footer class ends here-->
+
+    <script>
+        let navBar = document.querySelector("nav");
+        let menuLinks = document.getElementById("menu-links");
+
+        function toggleMenu(){
+            menuLinks.classList.toggle("show-menu"); // The toggle method checks if the menuLinks element has the show-menu class: if not, it adds the class | if yes, it removes the class.
+        }
+
+        window.onscroll = function(){
+            if (window.scrollY > 0){
+                navBar.style.background = "#eefff9";
+            }else{
+                navBar.style.background = "transparent";
+            }
+        }    
+        </script>
+</body>
+</html>
