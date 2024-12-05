@@ -1,7 +1,7 @@
 <h1>Project Description</h1>
 <br>
 <h3>Amazon Clone</h3> <br>
-<p>It is a front-end project using HTML, CSS, JavaScript. I have made a clone of amazon.in with functional CSS, fade effect of banner and sliding images.</p>
+<p>It is a full responsive front-end project using HTML, CSS, JavaScript. I have made a clone of amazon.in with functional CSS, fade effect of banner and sliding images.</p>
 <br>
 <p>This is multipage webpage with home(index), cart, signin and one product page.</p>
 <br>
