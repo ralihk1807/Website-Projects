@@ -15,3 +15,6 @@
 <br>
 <h3>Responsive furniture website</h3> 
 <p>This is my first demo website to showcase responsiveness in websites.</p>
+<br>
+<h3>Responsive Gym Website</h3>
+<p>A fully responsive website created in HTML, CSS and JavaScript with interesting CSS effects and attractive animations.</p>
